@@ -8,14 +8,14 @@ jobs:
   Execute-Testbench:
     runs-on: ubuntu-24.04
     steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
       - name: Setup GHDL nightly
         uses: ghdl/setup-ghdl@v1
         with:
           backend: mcode
           investigate: true
       - run: ghdl --version
-      - name: Check out repository code
-        uses: actions/checkout@v3
       - name: Execute the VHDL testbench
         run: |
           ghdl analyze -v src/*.vhd

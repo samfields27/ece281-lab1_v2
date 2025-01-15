@@ -5,6 +5,10 @@
 # never ignore itself
 !.gitignore
 
+# not prelab
+!prelab/
+!prelab/*
+
 # don't ignore hardware description files
 !src/
 !src/**/

@@ -14,7 +14,11 @@ $$
 
 ### Digital Simulations
 
-In this folder are also Digital templates for you to complete and simulate.
+In this folder are also Digital templates for you to complete and simulate.  Do not change the file names or the input and output labels in Digital otherwise the autograder will not work.  The autograder will first look in the prelab folder then in the root of the submission for the files.
+
+Complete all three circuits using the various approaches (generic multiplexer symbol, 74151 multiplexer chip, and a sum of products using and/or logic gates).
+
+You may also wish to run test cases.  The first two rows of the truth table have been added to the Digital simulation files as a test.  You may wish to edit the test to add more rows and fully cover all possible cases but this is not required.
 
 ## Submission
 

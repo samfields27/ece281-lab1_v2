@@ -59,7 +59,7 @@ entity thirtyOneDayMonth is
 	i_B : in std_logic; -- one of four inputs
 	i_C : in std_logic;
 	i_D : in std_logic;
-	o_Y : std_logic;
+	o_Y : std_logic
 	
 	
 	
@@ -80,13 +80,13 @@ begin
 	w_sel(2) <= i_A;
 	
 	o_Y <= i_D when(w_sel="0 0 0" ) else
-	o_Y <= i_D when(w_sel="0 0 1" ) else
-	o_Y <= i_D when(w_sel="0 1 0" ) else
-	o_Y <= i_D when(w_sel="0 1 1" ) else
-	o_Y <= i_D when(w_sel="1 0 0" ) else
-	o_Y <= i_D when(w_sel="1 0 1" ) else
-	o_Y <= i_D when(w_sel="1 1 0" ) else
-	o_Y <= i_D when(w_sel="1 1 1" ) else
+	i_D when(w_sel="0 0 1" ) else
+	i_D when(w_sel="0 1 0" ) else
+	i_D when(w_sel="0 1 1" ) else
+	i_D when(w_sel="1 0 0" ) else
+	i_D when(w_sel="1 0 1" ) else
+	i_D when(w_sel="1 1 0" ) else
+	i_D when(w_sel="1 1 1" ) else
 	
 	
 	

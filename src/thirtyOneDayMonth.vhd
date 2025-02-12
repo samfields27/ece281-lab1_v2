@@ -83,10 +83,10 @@ begin
 	i_D when (w_sel="001") else
 	i_D when (w_sel="010") else
 	i_D when (w_sel="011") else
-	i_D when (w_sel="100") else
-	i_D when (w_sel="101") else
-	i_D when (w_sel="110") else
-	i_D when (w_sel="111") else 
+	not i_D when (w_sel="100") else
+	not i_D when (w_sel="101") else
+	 not i_D when (w_sel="110") else
+	not i_D when (w_sel="111") else 
 	'0';
 	
 	

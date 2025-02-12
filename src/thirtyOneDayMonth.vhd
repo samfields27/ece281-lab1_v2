@@ -86,7 +86,7 @@ begin
 	i_D when(w_sel="1 0 0" ) else
 	i_D when(w_sel="1 0 1" ) else
 	i_D when(w_sel="1 1 0" ) else
-	i_D when(w_sel="1 1 1" ) else
+	i_D when(w_sel="1 1 1" ) else;
 	
 	
 	

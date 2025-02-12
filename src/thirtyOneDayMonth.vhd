@@ -80,13 +80,13 @@ begin
 	w_sel(2) <= i_A;
 	
 	o_Y <= i_D when(w_sel="0 0 0" ) else
-	i_D when(w_sel="0 0 1" ) else
-	i_D when(w_sel="0 1 0" ) else
-	i_D when(w_sel="0 1 1" ) else
-	i_D when(w_sel="1 0 0" ) else
-	i_D when(w_sel="1 0 1" ) else
-	i_D when(w_sel="1 1 0" ) else
-	i_D when(w_sel="1 1 1" ) else 
+	i_D when (w_sel="001") else
+	i_D when (w_sel="010") else
+	i_D when (w_sel="011") else
+	i_D when (w_sel="100") else
+	i_D when (w_sel="101") else
+	i_D when (w_sel="110") else
+	i_D when (w_sel="111") else 
 	'0';
 	
 	

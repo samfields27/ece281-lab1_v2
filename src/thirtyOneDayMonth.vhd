@@ -85,7 +85,7 @@ begin
 	i_D when (w_sel="011") else
 	not i_D when (w_sel="100") else
 	not i_D when (w_sel="101") else
-	 not i_D when (w_sel="110") else
+	not i_D when (w_sel="110") else
 	not i_D when (w_sel="111") else 
 	'0';
 	

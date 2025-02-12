@@ -79,7 +79,7 @@ begin
 	w_sel(1) <= i_B;	-- one
 	w_sel(2) <= i_A;
 	
-	o_Y <= i_D when(w_sel="0 0 0" ) else
+	o_Y <= i_D when(w_sel="000") else
 	i_D when (w_sel="001") else
 	i_D when (w_sel="010") else
 	i_D when (w_sel="011") else

@@ -164,8 +164,8 @@ D as the least-significant bit.</string>
       <p2 x="320" y="320"/>
     </wire>
     <wire>
-      <p1 x="240" y="20"/>
-      <p2 x="340" y="20"/>
+      <p1 x="160" y="80"/>
+      <p2 x="340" y="80"/>
     </wire>
     <wire>
       <p1 x="120" y="180"/>
@@ -192,8 +192,8 @@ D as the least-significant bit.</string>
       <p2 x="300" y="260"/>
     </wire>
     <wire>
-      <p1 x="200" y="40"/>
-      <p2 x="320" y="40"/>
+      <p1 x="200" y="100"/>
+      <p2 x="320" y="100"/>
     </wire>
     <wire>
       <p1 x="120" y="200"/>
@@ -204,8 +204,8 @@ D as the least-significant bit.</string>
       <p2 x="320" y="280"/>
     </wire>
     <wire>
-      <p1 x="160" y="60"/>
-      <p2 x="300" y="60"/>
+      <p1 x="240" y="120"/>
+      <p2 x="300" y="120"/>
     </wire>
     <wire>
       <p1 x="120" y="220"/>
@@ -216,36 +216,32 @@ D as the least-significant bit.</string>
       <p2 x="320" y="300"/>
     </wire>
     <wire>
-      <p1 x="240" y="-20"/>
-      <p2 x="240" y="20"/>
+      <p1 x="480" y="240"/>
+      <p2 x="480" y="260"/>
     </wire>
     <wire>
-      <p1 x="320" y="40"/>
+      <p1 x="240" y="-20"/>
+      <p2 x="240" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="100"/>
       <p2 x="320" y="120"/>
     </wire>
     <wire>
       <p1 x="160" y="-20"/>
-      <p2 x="160" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="480" y="240"/>
-      <p2 x="480" y="260"/>
+      <p2 x="160" y="80"/>
     </wire>
     <wire>
       <p1 x="340" y="140"/>
       <p2 x="340" y="180"/>
     </wire>
     <wire>
-      <p1 x="340" y="20"/>
+      <p1 x="340" y="80"/>
       <p2 x="340" y="120"/>
     </wire>
     <wire>
       <p1 x="260" y="260"/>
       <p2 x="260" y="320"/>
-    </wire>
-    <wire>
-      <p1 x="200" y="-20"/>
-      <p2 x="200" y="40"/>
     </wire>
     <wire>
       <p1 x="120" y="-20"/>
@@ -272,8 +268,8 @@ D as the least-significant bit.</string>
       <p2 x="280" y="300"/>
     </wire>
     <wire>
-      <p1 x="300" y="60"/>
-      <p2 x="300" y="120"/>
+      <p1 x="200" y="-20"/>
+      <p2 x="200" y="100"/>
     </wire>
     <wire>
       <p1 x="300" y="260"/>
